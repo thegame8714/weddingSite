@@ -1,1 +1,1 @@
-web: NODE_ENV=production yarn build
+web: NODE_ENV=production yarn start
