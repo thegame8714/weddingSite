@@ -29,29 +29,42 @@ class Form extends React.Component {
   render() {
     const { name, code } = this.state
     return (
-      <form>
-        <input
-          name="fullName"
-          type="text"
-          data-test-input-name
-          onChange={this.handleInputNameChange}
-        />
-        <input
-          name="fullName"
-          type="text"
-          data-test-input-code
-          onChange={this.handleInputCodeChange}
-        />
-        <button
-          type="submit"
-          data-test-submit-button
-          onClick={() => this.props.onSubmitClick(name, code)}
-        >
-          Go to payment page
-        </button>
+      <form className="main_content_form">
+        <div className="main_content_form_item">
+          <label htmlFor="fullName">Name:</label>
+          <input
+            name="fullName"
+            type="text"
+            data-test-input-name
+            onChange={this.handleInputNameChange}
+          />
+        </div>
+        <div className="main_content_form_item">
+          <label htmlFor="secretCode">Secret code:</label>
+          <input
+            name="secretCode"
+            type="text"
+            data-test-input-code
+            onChange={this.handleInputCodeChange}
+          />
+        </div>
+        <div>
+          <button
+            type="submit"
+            data-test-submit-button
+            onClick={() => this.props.onSubmitClick(name, code)}
+            className="main_content_button"
+          >
+            Go to payment page
+          </button>
+        </div>
       </form>
     )
   }
+}
+
+Form.propTypes = {
+  onSubmitClick: PropTypes.func.isRequired
 }
 
 export default Form

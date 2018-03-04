@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Form from './Form'
-import logo from './logo.svg'
 import './App.css'
 import BankAccount from './BankAccount'
 import axios from 'axios'
@@ -10,7 +9,8 @@ class App extends Component {
     super(props)
 
     this.state = {
-      showBankAccount: false
+      showBankAccount: false,
+      nameNotFound: false
     }
 
     this.onSubmitClick = this.onSubmitClick.bind(this)
@@ -30,25 +30,52 @@ class App extends Component {
   }
 
   onSubmitClick(name, code) {
-    return this.apiCall(name, code).then(response => {
-      this.setState({
-        showBankAccount: true
+    return this.apiCall(name, code)
+      .then(() => {
+        this.setState({
+          showBankAccount: true,
+          nameNotFound: false
+        })
       })
-    })
+      .catch(() => {
+        this.setState({
+          nameNotFound: true
+        })
+      })
   }
 
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <div className="img_wrapper">
+            <img src={require('./images/us.jpg')} alt="us" />
+            <img
+              src={require('./images/villadistriano_lavilla_03-1.jpg')}
+              alt="villaDiStriano"
+            />
+            <img src={require('./images/ny_love.jpg')} alt="ny_love" />
+            <img
+              src={require('./images/dubai_gnagna_bella.jpg')}
+              alt="usDubai"
+            />
+          </div>
         </header>
-        {this.state.showBankAccount ? (
-          <BankAccount />
-        ) : (
-          <Form onSubmitClick={this.onSubmitClick} />
-        )}
+        <div className="main_content">
+          <div className="main_content_title">Fabio & Giada's wedding</div>
+          <div className="main_content_text">
+            Welcome into our wedding page, handcrafted for you by us.
+          </div>
+          <div className="main_content_thank_you_message">
+            Thank you for being part of our story!
+          </div>
+          {this.state.nameNotFound && <span>WROONG!!!</span>}
+          {this.state.showBankAccount ? (
+            <BankAccount />
+          ) : (
+            <Form onSubmitClick={this.onSubmitClick} />
+          )}
+        </div>
       </div>
     )
   }

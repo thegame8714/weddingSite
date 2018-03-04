@@ -1,1 +1,1 @@
-web: NODE_ENV=production yarn start
+web: build/index.html
