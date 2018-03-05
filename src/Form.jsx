@@ -1,5 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { FormattedMessage } from 'react-intl'
+import messages from './translation/sentences'
 
 class Form extends React.Component {
   constructor(props) {
@@ -31,7 +33,9 @@ class Form extends React.Component {
     return (
       <form className="main_content_form">
         <div className="main_content_form_item">
-          <label htmlFor="fullName">Name:</label>
+          <label htmlFor="fullName">
+            <FormattedMessage {...messages.name} />
+          </label>
           <input
             name="fullName"
             type="text"
@@ -40,7 +44,9 @@ class Form extends React.Component {
           />
         </div>
         <div className="main_content_form_item">
-          <label htmlFor="secretCode">Secret code:</label>
+          <label htmlFor="secretCode">
+            <FormattedMessage {...messages.secret_code} />
+          </label>
           <input
             name="secretCode"
             type="text"
@@ -55,7 +61,7 @@ class Form extends React.Component {
             onClick={() => this.props.onSubmitClick(name, code)}
             className="main_content_button"
           >
-            Go to payment page
+            <FormattedMessage {...messages.go_to_payment_page} />
           </button>
         </div>
       </form>

@@ -3,6 +3,8 @@ import Form from './Form'
 import './App.css'
 import BankAccount from './BankAccount'
 import axios from 'axios'
+import { FormattedMessage } from 'react-intl'
+import messages from './translation/sentences'
 
 class App extends Component {
   constructor(props) {
@@ -62,12 +64,25 @@ class App extends Component {
           </div>
         </header>
         <div className="main_content">
-          <div className="main_content_title">Fabio & Giada's wedding</div>
+          <div className="main_content_title">
+            <FormattedMessage {...messages.title} />
+          </div>
           <div className="main_content_text">
-            Welcome into our wedding page, handcrafted for you by us.
+            <p>
+              <FormattedMessage {...messages.welcome_text} />
+            </p>
+            <p>
+              <FormattedMessage {...messages.we_cant_wait} />
+            </p>
+            <p>
+              <FormattedMessage {...messages.dreamy_honeymoon} />
+            </p>
+            <p>
+              <FormattedMessage {...messages.contribute} />
+            </p>
           </div>
           <div className="main_content_thank_you_message">
-            Thank you for being part of our story!
+            <FormattedMessage {...messages.thank_you} />
           </div>
           {this.state.nameNotFound && <span>WROONG!!!</span>}
           {this.state.showBankAccount ? (
