@@ -22,7 +22,7 @@ class App extends Component {
   apiCall(name, code) {
     return axios.request({
       method: 'post',
-      url: 'http://api.giadazanotti.com/checkNameAndCode',
+      url: 'http://api.giadazanotti.com/addGift',
       data: {
         name,
         code

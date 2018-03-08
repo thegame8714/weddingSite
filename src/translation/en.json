@@ -9,5 +9,7 @@
   "thank_you": "Thank you for being part of our story!",
   "name": "Name:",
   "secret_code": "Secret code:",
-  "go_to_payment_page": "View payment option"
+  "go_to_payment_page": "View payment option",
+  "sort_code": "Sort code:",
+  "account_number": "Account number:"
 }

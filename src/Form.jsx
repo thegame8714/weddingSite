@@ -14,6 +14,7 @@ class Form extends React.Component {
 
     this.handleInputNameChange = this.handleInputNameChange.bind(this)
     this.handleInputCodeChange = this.handleInputCodeChange.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   handleInputNameChange(e) {
@@ -28,8 +29,13 @@ class Form extends React.Component {
     })
   }
 
-  render() {
+  handleSubmit(e) {
     const { name, code } = this.state
+    e.preventDefault()
+    this.props.onSubmitClick(name, code)
+  }
+
+  render() {
     return (
       <form className="main_content_form">
         <div className="main_content_form_item">
@@ -49,7 +55,7 @@ class Form extends React.Component {
           </label>
           <input
             name="secretCode"
-            type="text"
+            type="password"
             data-test-input-code
             onChange={this.handleInputCodeChange}
           />
@@ -58,7 +64,7 @@ class Form extends React.Component {
           <button
             type="submit"
             data-test-submit-button
-            onClick={() => this.props.onSubmitClick(name, code)}
+            onClick={this.handleSubmit}
             className="main_content_button"
           >
             <FormattedMessage {...messages.go_to_payment_page} />

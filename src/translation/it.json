@@ -9,5 +9,7 @@
   "thank_you": "Grazie per far parte della nostra storia",
   "name": "Nome:",
   "secret_code": "Codice segreto",
-  "go_to_payment_page": "Mostra le opzioni di pagamento"
+  "go_to_payment_page": "Mostra le opzioni di pagamento",
+  "sort_code": "Codice di ordinamento:",
+  "account_number": "Numero di conto:"
 }

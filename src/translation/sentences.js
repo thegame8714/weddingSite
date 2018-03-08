@@ -47,6 +47,16 @@ const messages = defineMessages({
     id: 'go_to_payment_page',
     description: '',
     defaultMessage: 'View payment option'
+  },
+  sort_code: {
+    id: 'sort_code',
+    description: '',
+    defaultMessage: 'Sort code:'
+  },
+  account_number: {
+    id: 'account_number',
+    description: '',
+    defaultMessage: 'Account number:'
   }
 })
 
