@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
-import registerServiceWorker from './registerServiceWorker'
 import { IntlProvider, addLocaleData } from 'react-intl'
 import en from 'react-intl/locale-data/en'
 import it from 'react-intl/locale-data/it'
@@ -21,4 +20,3 @@ ReactDOM.render(
   </IntlProvider>,
   document.getElementById('root')
 )
-registerServiceWorker()
