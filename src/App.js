@@ -5,6 +5,7 @@ import BankAccount from './BankAccount'
 import axios from 'axios'
 import { FormattedMessage } from 'react-intl'
 import messages from './translation/sentences'
+import imageList from './ImageHelpers'
 
 class App extends Component {
   constructor(props) {
@@ -50,18 +51,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <div className="img_wrapper">
-            <img src={require('./images/us.jpg')} alt="us" />
-            <img
-              src={require('./images/villadistriano_lavilla_03-1.jpg')}
-              alt="villaDiStriano"
-            />
-            <img src={require('./images/ny_love.jpg')} alt="ny_love" />
-            <img
-              src={require('./images/dubai_gnagna_bella.jpg')}
-              alt="usDubai"
-            />
-          </div>
+          <div className="img_wrapper">{imageList}</div>
         </header>
         <div className="main_content">
           <div className="main_content_title">

@@ -37,10 +37,6 @@
 }
 
 .img_wrapper img {
-  animation-name: imagesFadeInOut;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 10s;
   height: 100%;
   width: 40%;
   position: absolute;
@@ -62,40 +58,6 @@
     left: 0;
     width: 100%;
   }
-}
-
-@keyframes imagesFadeInOut {
-  0% {
-    opacity: 1;
-  }
-  17% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0;
-  }
-  92% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.App-header img:nth-of-type(1) {
-  animation-delay: 6s;
-}
-
-.App-header img:nth-of-type(2) {
-  animation-delay: 4s;
-}
-
-.App-header img:nth-of-type(3) {
-  animation-delay: 2s;
-}
-
-.App-header img:nth-of-type(4) {
-  animation-delay: 0;
 }
 
 .main_content_title {

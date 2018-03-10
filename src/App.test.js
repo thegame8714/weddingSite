@@ -4,7 +4,7 @@ import App from './App'
 import Form from './Form'
 import { mount } from 'enzyme'
 import sinon from 'sinon'
-import BankAccount from './BankAccount'
+// import BankAccount from './BankAccount'
 
 describe('App', () => {
   it('renders without crashing', () => {
