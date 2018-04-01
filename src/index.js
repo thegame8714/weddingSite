@@ -13,8 +13,12 @@ import de from 'react-intl/locale-data/de'
 import { BrowserRouter, Route } from 'react-router-dom'
 
 addLocaleData([...en, ...it, ...de, ...es])
-
-const language = navigator.languages[0].substr(0, 2)
+var language
+if (navigator.languages) {
+  language = navigator.languages[0].substr(0, 2)
+} else {
+  language = navigator.language.substr(0, 2)
+}
 
 const messages = require(`./translation/${language}.json`)
 
