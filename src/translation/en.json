@@ -11,5 +11,11 @@
   "secret_code": "Secret code:",
   "go_to_payment_page": "View payment option",
   "sort_code": "Sort code:",
-  "account_number": "Account number:"
+  "account_number": "Account number:",
+  "event_title": "Event",
+  "guests_arrive": "Guests arrive",
+  "wedding_starts": "Wedding starts",
+  "aperitif": "Aperitif and snacks",
+  "dinner": "Dinner",
+  "music": "Music and dance until night"
 }

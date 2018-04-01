@@ -57,6 +57,36 @@ const messages = defineMessages({
     id: 'account_number',
     description: '',
     defaultMessage: 'Account number:'
+  },
+  event_title: {
+    id: 'event_title',
+    description: '',
+    defaultMessage: 'Event'
+  },
+  guests_arrive: {
+    id: 'guests_arrive',
+    description: '',
+    defaultMessage: 'Guests arrive'
+  },
+  wedding_starts: {
+    id: 'wedding_starts',
+    description: '',
+    defaultMessage: 'Wedding starts'
+  },
+  aperitif: {
+    id: 'aperitif',
+    description: '',
+    defaultMessage: 'Aperitif and snack'
+  },
+  dinner: {
+    id: 'dinner',
+    description: '',
+    defaultMessage: 'Dinner'
+  },
+  music: {
+    id: 'music',
+    description: '',
+    defaultMessage: 'Music and dance until night'
   }
 })
 

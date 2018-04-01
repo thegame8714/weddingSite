@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component should render the home component 1`] = `
+<div>
+  <div
+    className="main_content_title"
+  >
+    <span>
+      Fabio & Giada's wedding
+    </span>
+  </div>
+  <div
+    className="main_content_text"
+  >
+    <p>
+      <span>
+        Welcome into our wedding page, handcrafted for you by us.
+      </span>
+    </p>
+    <p>
+      <span>
+        We can't wait to share this day with you!
+      </span>
+    </p>
+    <p>
+      <span>
+        We haven't set up a proper giftlist but we are collecting money to live our dreamy honeymoon and live forever happily after!
+      </span>
+    </p>
+    <p>
+      <span>
+        If you're here, you must have received your invitation, so please use the name on your card and the code to contribute to our giftlist.
+      </span>
+    </p>
+  </div>
+  <div
+    className="main_content_thank_you_message"
+  >
+    <span>
+      Thank you for being part of our story!
+    </span>
+  </div>
+  <form
+    className="main_content_form"
+  >
+    <div
+      className="main_content_form_item"
+    >
+      <label
+        htmlFor="fullName"
+      >
+        <span>
+          Name:
+        </span>
+      </label>
+      <input
+        data-test-input-name={true}
+        name="fullName"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="main_content_form_item"
+    >
+      <label
+        htmlFor="secretCode"
+      >
+        <span>
+          Secret code:
+        </span>
+      </label>
+      <input
+        data-test-input-code={true}
+        name="secretCode"
+        onChange={[Function]}
+        type="password"
+      />
+    </div>
+    <div>
+      <button
+        className="main_content_button"
+        data-test-submit-button={true}
+        onClick={[Function]}
+        type="submit"
+      >
+        <span>
+          View payment option
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;

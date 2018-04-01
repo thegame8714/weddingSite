@@ -12,5 +12,11 @@
   "secret_code": "Código secreto:",
   "go_to_payment_page": "Ver opción de pago",
   "sort_code": "Código de clasificacion:",
-  "account_number": "Numero de cuenta:"
+  "account_number": "Numero de cuenta:",
+  "event_title": "Evento",
+  "guests_arrive": "Los invitados llegan",
+  "wedding_starts": "El matrimonio comienza",
+  "aperitif": "Aperitivos y snacks",
+  "dinner": "Cena",
+  "music": "Música y baile hasta la noche
 }

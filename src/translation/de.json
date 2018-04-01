@@ -13,5 +13,11 @@
   "secret_code": "Geheim Code:",
   "go_to_payment_page": "Zahlungsoption anzeigen",
   "sort_code": "Bankleitzahl:",
-  "account_number": "Accountnummer:"
+  "account_number": "Accountnummer:",
+  "event_title": "Veranstaltung",
+  "guests_arrive": "Gäste kommen an",
+  "wedding_starts": "Hochzeit beginnt",
+  "aperitif": "Aperitif und Snacks",
+  "dinner": "Abendessen",
+  "music": "Musik und Tanz bis in die Nacht"
 }

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Event component should render the event page 1`] = `
+<div>
+  <h1>
+    Event
+  </h1>
+  <ul>
+    <li>
+      - 17:00 Guests arrive
+    </li>
+    <li>
+      - 17:30 Wedding starts
+    </li>
+    <li>
+      - 18:00 Aperitif and snacks
+    </li>
+    <li>
+      - 19:00 Dinner
+    </li>
+    <li>
+      - 21:00 Music and dance until night
+    </li>
+  </ul>
+</div>
+`;
