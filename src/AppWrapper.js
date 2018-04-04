@@ -4,19 +4,19 @@ import MainNav from './MainNav'
 const imagePath = 'http://api.giadazanotti.com/images/'
 
 const imageListObj = {
-  dubai_gnagna_bella: imagePath + 'dubai_gnagna_bella.jpg',
-  us_amsterdam_2: imagePath + 'us_amsterdam_2.jpg',
-  us_amsterdam: imagePath + 'us_amsterdam.jpg',
-  us_angel: imagePath + 'us_angel.jpg',
-  us_boat_to_amsterdam: imagePath + 'us_boat_to_amsterdam.jpg',
-  us_leeds_castle: imagePath + 'us_leeds_castle.jpg',
-  us_london_eye_xmas: imagePath + 'us_london_eye_xmas.jpg',
-  us_newcastle: imagePath + 'us_newcastle.jpg',
-  us_tenerife: imagePath + 'us_tenerife.jpg',
-  us_tube_gnagna_bionda: imagePath + 'us_tube_gnagna_bionda.jpg',
-  us_versailles: imagePath + 'us_versailles.jpg',
-  us: imagePath + 'us.jpg',
-  villadistriano_lavilla: imagePath + 'villadistriano_lavilla_03-1.jpg'
+	dubai_gnagna_bella: imagePath + 'dubai_gnagna_bella.jpg',
+	us_amsterdam_2: imagePath + 'us_amsterdam_2.jpg',
+	us_amsterdam: imagePath + 'us_amsterdam.jpg',
+	us_angel: imagePath + 'us_angel.jpg',
+	us_boat_to_amsterdam: imagePath + 'us_boat_to_amsterdam.jpg',
+	us_leeds_castle: imagePath + 'us_leeds_castle.jpg',
+	us_london_eye_xmas: imagePath + 'us_london_eye_xmas.jpg',
+	us_newcastle: imagePath + 'us_newcastle.jpg',
+	us_tenerife: imagePath + 'us_tenerife.jpg',
+	us_tube_gnagna_bionda: imagePath + 'us_tube_gnagna_bionda.jpg',
+	us_versailles: imagePath + 'us_versailles.jpg',
+	us: imagePath + 'us.jpg',
+	villadistriano_lavilla: imagePath + 'villadistriano_lavilla_03-1.jpg'
 }
 
 class AppWrapper extends React.Component {

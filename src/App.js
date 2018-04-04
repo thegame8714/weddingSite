@@ -3,7 +3,10 @@ import './App.css'
 import Home from './Home'
 
 class App extends Component {
-  render() {
+ constructor(props) {
+ }
+
+render() {
     return <Home />
   }
 }

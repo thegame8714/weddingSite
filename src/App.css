@@ -45,16 +45,20 @@ body {
   height: 100%;
   margin: 0;
   list-style-type: none;
+  padding: 0;
+}
+
+.img_wrapper li {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
 }
 
 .img_wrapper img {
   height: 100%;
-  width: 30%;
   position: absolute;
-  background-size: cover;
   top: 0;
-  left: 35%;
-  margin: 0 auto;
 }
 
 @media (max-width: 1000px) {
