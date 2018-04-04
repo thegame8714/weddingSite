@@ -87,6 +87,11 @@ const messages = defineMessages({
     id: 'music',
     description: '',
     defaultMessage: 'Music and dance until night'
+  },
+  bankAccount_description: {
+     id: 'bankAccount_description',
+     descrption: '',
+     defaultMessage: 'The number belows have to be used if you want to transfer us money on our English bank account. We are more than happy to receive the classice envelope too.'
   }
 })
 

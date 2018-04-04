@@ -5,7 +5,7 @@
   "dreamy_honeymoon":
     "Non abbiamo preparato una vera e propria lista nozze ma stiamo raccogliendo soldi per fare una luna di miele da sogno e per \" vivere per sempre felici e contenti!\"",
   "contribute":
-    "Se sei qui devi aver ricevuto il tuo invito, quindi per favore usa il nome sulla tua busta e il codice all'interno dell'invito per contribuire alla nostra lista nozze",
+    "Se sei qui devi aver ricevuto il tuo invito, quindi per favore usa il nome sulla tua busta e il codice all'interno dell'invito per contribuire alla nostra lista nozze. Ad esempiose sulla vostra busta e' scritto Fabio Giada allora dovete inserire Fabio Giada nel primo campo ed il codice all'interno dell' invito nel secondo campo.",
   "thank_you": "Grazie per far parte della nostra storia",
   "name": "Nome:",
   "secret_code": "Codice segreto",
@@ -17,5 +17,6 @@
   "wedding_starts": "Inizio del matrimonio",
   "aperitif": "Aperitivo e snacks",
   "dinner": "Cena",
-  "music": "Musica e balli fino a notte fonda"
+  "music": "Musica e balli fino a notte fonda",
+  "bankAccount_description": "I numeri seguenti sono i dettagli del nostro conto bancario inglese, nal caso vogliate trasferisci qualcosa direttamente li'. Accettiamo molto volentieri anche la classica busta."
 }
