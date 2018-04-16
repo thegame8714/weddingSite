@@ -92,6 +92,11 @@ const messages = defineMessages({
      id: 'bankAccount_description',
      descrption: '',
      defaultMessage: 'The number belows have to be used if you want to transfer us money on our English bank account. We are more than happy to receive the classice envelope too.'
+  },
+  outside_uk: {
+    id: 'outside_uk',
+    description: '',
+    defaultMessage: 'Or if you are outside UK use this IBAN Number:'
   }
 })
 

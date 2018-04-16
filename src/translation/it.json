@@ -18,5 +18,8 @@
   "aperitif": "Aperitivo e snacks",
   "dinner": "Cena",
   "music": "Musica e balli fino a notte fonda",
-  "bankAccount_description": "I numeri seguenti sono i dettagli del nostro conto bancario inglese, nal caso vogliate trasferisci qualcosa direttamente li'. Accettiamo molto volentieri anche la classica busta."
+  "bankAccount_description":
+    "I numeri seguenti sono i dettagli del nostro conto bancario inglese, nal caso vogliate trasferisci qualcosa direttamente li'. Accettiamo molto volentieri anche la classica busta.",
+  "outside_uk":
+    "Oppure, se siete fuore dal Regno Unito potete utilizzare questo number IBAN: "
 }
